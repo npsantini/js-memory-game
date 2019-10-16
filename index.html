@@ -1,0 +1,30 @@
+<html>
+    <head>
+            <link href="css/memory-game.css" rel="stylesheet">
+    </head>
+    <body>
+        <button id="startGame" onclick="newBoard()">Start Game</button>
+        <div id="scoreBoard">
+            <div id="player1">Player 1</div>
+            <div id="player2">Player 2</div>
+            <div id="p1">&nbsp;</div>
+            <div id="player1Score" class="playerScore">0</div>
+            <div id="p2">&nbsp;</div>
+            <div id="player2Score" class="playerScore">0</div>
+            <div class="clear"></div>
+        </div>
+        <div id="memory_board">
+        </div>
+        <div id="messageArea">
+            <div id="messageTitle">
+                Message:
+            </div>
+            <div id="message">
+                Message Here
+            </div>
+            <div id="concedeGame"><button onclick="concedeGame()">Concede Game</button></div>
+            <div class="clear"></div>
+        </div>
+        <script src="js/memory-game.js"></script>
+    </body>
+</html>
